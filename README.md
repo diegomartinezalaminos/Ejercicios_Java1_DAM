@@ -5,6 +5,7 @@ Ejercicios de **Java** de **1DAM IES Campanillas**
 **INDICE:**
 
 [* Ejercicios01 --> Salida de datos por pantalla] (Ejercicios01)
+
 [* Ejercicios02 --> Variables] (Ejercicios02)
 [* Ejercicios03 --> Lectura de datos desde teclado] (Ejercicios03)
 [* Ejercicios04 --> Sentencia condicional (if y switch)] (Ejercicios04)
