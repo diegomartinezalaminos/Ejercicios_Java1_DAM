@@ -15,15 +15,15 @@ public abstract class Publicacion {
   private String isbn;
   private String titulo;
   private int anio;
-  private boolean prestado;
   private int numero;
+  private boolean presta;
 
   //Constructor
   public Publicacion(String isbn, String titulo, int anio) {
     this.isbn = isbn;
     this.titulo = titulo;
     this.anio = anio;
-    this.prestado = false;
+    this.presta = false;
   }
 
   public Publicacion(String isbn, String titulo, int anio, int numero) {
@@ -32,5 +32,20 @@ public abstract class Publicacion {
     this.anio = anio;
     this.numero = numero;
   }
+  
+  //Metodos
+  public void CambiaPresta(boolean x){
+    this.presta = x;
+  }
+  
+  public boolean GetPresta(){
+    return this.presta;
+  }
+  
+  @Override
+  public String toString() {
+    return "ISBN: " + this.isbn + ", título: " + this.titulo + ", año de publicación: " + this.anio;
+  }
+  
 
 }
